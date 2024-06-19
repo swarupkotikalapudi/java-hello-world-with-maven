@@ -7,7 +7,6 @@ public class HelloWorld {
       LocalTime currentTime = new LocalTime();
 		  System.out.println("The current local time is changed to  :  " + currentTime) ;
         Greeter greeter = new Greeter();
-        System.out.println(greeter.sayHello());
-	    
+        System.out.println(greeter.sayHello());	    
     }
 }
